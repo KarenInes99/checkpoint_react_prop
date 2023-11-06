@@ -1,0 +1,25 @@
+Créez un projet à l'aide de create-react-app.
+Créez un fichier appelé joueurs.js, qui contiendra un tableau d'objets JSON contenant les détails du joueur (au moins quatre joueurs)
+· Soyez créatif avec les joueurs que vous avez choisis ; vous pouvez choisir qui vous voulez !
+
+· Les attributs de chaque joueur sont le nom, l'équipe, la nationalité, le numéro de maillot, l'âge et une URL d'image pour le joueur.
+
+· Créez un fichier appelé Player.js qui contient le composant lecteur.
+
+· Le composant Player doit restituer une carte de réaction-bootstrap. La carte affichera tous les attributs de chaque joueur définis dans le fichier Players.js.
+
+· Déstructurer tous les attributs du composant Player.
+
+· Créez un composant appelé PlayersList.js
+
+· Importer dans PlayerList.js, le composant Player et les données des joueurs depuis Players.js
+
+· Affichez tous les joueurs dans PlayerList.js, en cartographiant tous les éléments du tableau de joueurs (vérifiez la fonction .map)
+
+· Lors de la cartographie des joueurs, passez les accessoires au composant Player (recherchez l'opérateur de propagation si vous souhaitez l'utiliser)
+
+· N'oubliez pas de définir les accessoires par défaut pour chaque attribut (n'hésitez pas à définir les accessoires par défaut)
+
+· Utilisez un style en ligne pour le composant Player
+
+· Importez PlayerList.js dans App.js (composant racine) et affichez PlayerList.
